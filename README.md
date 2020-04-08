@@ -1,2 +1,6 @@
-# Delete-file-in-file-sys-Nodejs
-Delete file in file system Node js
+fs.unlink('./example.txt',(err)=>{
+ if(err)
+ console.log(err);
+ else
+ console.log('the file is deleted');
+});
